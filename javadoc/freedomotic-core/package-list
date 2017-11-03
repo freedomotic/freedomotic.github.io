@@ -13,6 +13,7 @@ com.freedomotic.i18n
 com.freedomotic.marketplace
 com.freedomotic.nlp
 com.freedomotic.persistence
+com.freedomotic.persistence.util
 com.freedomotic.plugins
 com.freedomotic.plugins.impl
 com.freedomotic.reactions
