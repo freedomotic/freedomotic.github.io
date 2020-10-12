@@ -63,14 +63,14 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Learn and Contribute</h2>
+                                <h2><strong>Learn and Contribute</strong></h2>
                             </header>
                             <p>Learn how to use Freedomotic and how to work internally or develop your own plugin.</p>
                         </div>
 
                         <div className="col-4">
                             <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Plugins</h3>
+                            <h3><strong>Plugins</strong></h3>
                             <p>Download and install a plugin to extend the functionalities of your framework.</p>
                             <ul className="actions">
                                 <li><span className="button"><a href="https://bintray.com/freedomotic" target="_blank" rel="noreferrer">Go to Marketplace</a></span></li>
@@ -78,7 +78,7 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Developer Manual</h3>
+                            <h3><strong>Developer Manual</strong></h3>
                             <p>Learn the framework architecture, explore internals and write your own plugins.</p>
                             <ul className="actions">
                                 <li><span className="button"><a href="https://freedomotic-developer-manual.readthedocs.io/en/latest/" target="_blank" rel="noreferrer">Online</a></span></li>
@@ -87,7 +87,7 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>User Manual</h3>
+                            <h3><strong>User Manual</strong></h3>
                             <p>How to download, install and configure your instance of Freedomotic.</p>
                             <ul className="actions">
                                 <li><span className="button"><a href="https://freedomotic-user-manual.readthedocs.io/en/latest/" target="_blank" rel="noreferrer">Online</a></span></li>
