@@ -9,7 +9,7 @@ class Footer extends React.Component {
                     <li><a href="https://www.facebook.com/Freedomotic-Open-Source-Building-Automation-189816744396642" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
                     <li><a href="https://www.linkedin.com/groups/5099925" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
                     <li><a href="https://github.com/freedomotic" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
-                    <li><a href="https://www.youtube.com/freedomotic" className="icon alt fa-youtube"><span className="label">YouTube</span></a></li>
+                    <li><a href="https://www.youtube.com/playlist?list=PLCbSCJEIR6CpZd7sEI2YTWkFObGCgTj45" className="icon alt fa-youtube"><span className="label">YouTube</span></a></li>
                     <li><a href="https://www.slideshare.net/freedomotic/" className="icon alt fa-slideshare"><span className="label">SlideShare</span></a></li>
                     <li><a href="mailto:info@freedomotic-iot.com" className="icon alt fa-envelope"><span className="label">Email</span></a></li>
                 </ul>
