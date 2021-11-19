@@ -6,7 +6,8 @@ class Header extends React.Component {
         return (
             <section id="header">
                 <div className="inner">
-                    <img src={logo} width="400" alt=""/>
+                    <img src={logo} style="width: 100%;
+  max-width: 400px;" alt=""/>
                     <h2>Open IoT Framework</h2>
                     <h3>Thing Wider</h3>
                     <ul className="actions">
