@@ -14,7 +14,7 @@ class Footer extends React.Component {
                     <li><a href="mailto:info@freedomotic-iot.com" className="icon alt fa-envelope"><span className="label">Email</span></a></li>
                 </ul>
                 <ul className="copyright">
-                    <li>&copy; 2009-2020 Freedomotic Team</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    <li>&copy; 2009-2022 Freedomotic Team</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                 </ul>
             </section>
         )
