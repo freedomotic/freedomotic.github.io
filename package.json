@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Mauro Cicolella",
   "dependencies": {
-    "gatsby": "^2.15.14",
+    "gatsby": "^3.0.0",
     "gatsby-plugin-manifest": "^2.2.16",
     "gatsby-plugin-offline": "^3.0.6",
     "gatsby-plugin-react-helmet": "^3.1.7",
