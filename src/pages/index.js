@@ -82,7 +82,7 @@ class Homepage extends React.Component {
                             <p>Learn the framework architecture, explore internals and write your own plugins.</p>
                             <ul className="actions">
                                 <li><span className="button"><a href="https://freedomotic-developer-manual.readthedocs.io/en/latest/" target="_blank" rel="noreferrer">Online</a></span></li>
-                                <li><span className="button"><a href="https://freedomotic-developer-manual.readthedocs.io/en/latest/" target="_blank" rel="noreferrer">PDF</a></span></li>
+                                <li><span className="button"><a href="https://freedomotic-developer-manual.readthedocs.io/_/downloads/en/latest/pdf/" target="_blank" rel="noreferrer">PDF</a></span></li>
                             </ul>
                         </div>
                         <div className="col-4">
