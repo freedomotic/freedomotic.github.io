@@ -3,7 +3,7 @@ on:
     branches:
       - master
       
-name: Production Deployment
+name: FTP Deployment
 
 jobs:
   web-deploy:
