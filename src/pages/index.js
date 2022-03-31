@@ -73,7 +73,7 @@ class Homepage extends React.Component {
                             <h3><strong>Plugins</strong></h3>
                             <p>Download and install a plugin to extend the functionalities of your framework.</p>
                             <ul className="actions">
-                                <li><span className="button"><a href="https://bintray.com/freedomotic" target="_blank" rel="noreferrer">Go to Marketplace</a></span></li>
+                                <li><span className="button"><a href="https://github.com/freedomotic/freedomotic-plugins-marketplace" target="_blank" rel="noreferrer">Go to Marketplace</a></span></li>
                             </ul>
                         </div>
                         <div className="col-4">
