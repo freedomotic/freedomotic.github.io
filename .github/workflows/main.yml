@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - gh-pages
+      
 name: build gatsby
 jobs:
   build_gatsby:
@@ -18,9 +19,18 @@ jobs:
           GH_API_KEY: ${{ secrets.GATSBY_API_KEY }}
         run: yarn build
 
-      - name: deploy
+      - name: deploy to gh-pages
         uses: maxheld83/ghpages@v0.2.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_PAT: ${{ secrets.GATSBY_API_KEY }}
           BUILD_DIR: "public/"
+          
+      - name: FTP Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PWD }}
+          local-dir: public/
+          server-dir: public_html/
