@@ -115,10 +115,9 @@ class Homepage extends React.Component {
                             <h2>Want to try it?</h2>
                         </header>
                         <p>*** Dailybuilds are experimental ***</p>
-                        <p>Click on the button below. From the list of workflow runs, click the name of the first run. Under Artifacts, click the artifact you want to download. <b>You must be logged in.</b></p>
                         <ul className="actions uniform">
                             <li><span className="button special"><a href="https://sourceforge.net/projects/freedomotic/files/freedomotic-commander-5.6.0-rc4.zip/download" target="_blank" rel="noreferrer">Download 5.6 RC4 version</a></span></li>
-                            <li><span className="button"><a href="https://github.com/freedomotic/freedomotic/actions?query=is%3Asuccess" target="_blank" rel="noreferrer">Download the latest dailybuild</a></span></li>
+                            <li><span className="button"><a href="https://github.com/freedomotic/freedomotic/releases/download/dailybuild/freedomotic-5.6-SNAPSHOT.zip" target="_blank" rel="noreferrer">Download the latest dailybuild</a></span></li>
                         </ul>
                     </div>
                 </section>
