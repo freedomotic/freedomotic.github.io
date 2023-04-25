@@ -20,6 +20,11 @@ jobs:
 
       - name: Build
         run: npm run deploy # The build command of your project
+        
+      - name: Set commit identity  
+        run: |
+             git config --global user.email "info@freedomotic-platform.com"
+             git config --global user.name "Freedomotic Team"
     
       - name: Push
         uses: s0/git-publish-subdir-action@develop
