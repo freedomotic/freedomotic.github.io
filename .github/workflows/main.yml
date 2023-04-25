@@ -19,7 +19,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm deploy The build command of your project
+        run: npm run deploy # The build command of your project
     
       - name: Push
         uses: s0/git-publish-subdir-action@develop
