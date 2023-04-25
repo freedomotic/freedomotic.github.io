@@ -15,3 +15,5 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: main
+      - name: Add CNAME for custom domain
+        run: echo freedomotic-platform.com > CNAME
