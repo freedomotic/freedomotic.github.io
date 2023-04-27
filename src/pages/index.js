@@ -114,7 +114,7 @@ class Homepage extends React.Component {
                         <header className="major">
                             <h2>Want to try it?</h2>
                         </header>
-                        <p>*** Dailybuilds are experimental ***</p>
+                        <p>*** DAILYBUILDS ARE EXPERIMENTAL ***</p>
                         <ul className="actions uniform">
                             <li><span className="button special"><a href="https://sourceforge.net/projects/freedomotic/files/freedomotic-commander-5.6.0-rc4.zip/download" target="_blank" rel="noreferrer">Download 5.6 RC4 version</a></span></li>
                             <li><span className="button"><a href="https://github.com/freedomotic/freedomotic/releases/download/dailybuild/freedomotic-5.6-SNAPSHOT.zip" target="_blank" rel="noreferrer">Download the latest dailybuild</a></span></li>
